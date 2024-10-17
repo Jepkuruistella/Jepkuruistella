@@ -8,14 +8,14 @@ date:10/10/2024
 
 int main() {
     int customerID;
-    char customername[50];
+    char customername[150];
     float unitconsumed, totalbill = 0, bill = 0, surchange = 0;
 
     printf("Enter customerID: ");
     scanf("%d", &customerID);
 
     printf("Enter customer name: ");
-    scanf("%s", customername);
+    scanf("%c", customername);
 
     printf("Enter units consumed: ");
     scanf("%f", &unitconsumed);
@@ -44,7 +44,7 @@ int main() {
 
     // Display results
     printf("Customer ID: %d\n", customerID);
-    printf("Customer Name: %s\n", customername);
+    printf("Customer Name: %c\n", customername);
     printf("Units Consumed: %.2f\n", unitconsumed);
     printf("Bill: %.2f\n", bill);
     printf("Surcharge: %.2f\n", surchange);
