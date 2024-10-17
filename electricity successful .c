@@ -8,7 +8,7 @@ date:10/10/2024
 
 int main() {
     int customerID;
-    char customername[50];
+    char customername[150];
     float unitconsumed, totalbill = 0, bill = 0, surchange = 0;
 
     printf("Enter customerID: ");
