@@ -1,18 +1,24 @@
-// program to write 3D 
-/*
-program to write 3D
-author:stella jepkirui 
-Date:16/10/2023
-*/
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-int arr[2][2][3]={ {4,5,6},{7,8,9} };
-for(int i=0;i<2;i++){
-for(int j=0;j<2;j++){
-for(int k=0;k<3;k++){
-printf("%d\n",arr[i][j][k]);
+int x,y,z;
+int arr[2][2][3]={{1,2,3},{4,5,6}};
+for(x=0;x<2;x++){
+for(y=0;y<2;y++){
+for(z=0;z<3;z++){
+printf("arr[x][y][z]=%d\n",x,y,z);
 }
 }
 }
+int a,b,c;
+for(a=0;a<x;a++){
+for(b=0;b<y;b++){
+for(c=0;c<z;z++){
+printf("%d",arr[x][y][z]);
+}
+}
+}
+printf("\n");
+printf("\n");
+
 return 0;
 }
